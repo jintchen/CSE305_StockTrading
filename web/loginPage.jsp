@@ -25,7 +25,7 @@
 
                                     <input type="text" placeholder="Username" name= "username" class="form-control"/>
 
-                                    <input type="text" placeholder="Password" name= "password" class="form-control"/> 
+                                    <input type="password" id="register_password" placeholder="Password" name= "password" class="form-control"/> 
 
                                   
                                 </div>
@@ -48,5 +48,11 @@
 
         </div>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+        <!-- Customized js files -->
+
+        <script src="bootstrap-3.3.6-dist/js/script.js"></script>
 </html>
 
