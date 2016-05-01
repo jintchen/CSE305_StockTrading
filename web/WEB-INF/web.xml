@@ -18,7 +18,11 @@
     </servlet>
     <servlet>
         <servlet-name>AddEmployeeServlet</servlet-name>
-        <servlet-class>AddEmployeeServlet</servlet-class>
+        <servlet-class>Servlet.AddEmployeeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SelectTypeServlet</servlet-name>
+        <servlet-class>Servlet.SelectTypeServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SetStockServlet</servlet-name>
@@ -39,6 +43,10 @@
     <servlet-mapping>
         <servlet-name>AddEmployeeServlet</servlet-name>
         <url-pattern>/AddEmployeeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SelectTypeServlet</servlet-name>
+        <url-pattern>/SelectTypeServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

@@ -10,7 +10,6 @@ import java.io.Serializable;
  */
 public class Stock implements Serializable{
     private String stockSymbol;
-    private String stockName;
     private String companyName;
     private String type;
     private int numShares;
@@ -22,9 +21,6 @@ public class Stock implements Serializable{
     
     public void setStockSymbol(String ss){stockSymbol=ss;}
     public String getStockSymbol(){return stockSymbol;}
-    
-    public void setStockName(String sn){stockName=sn;}
-    public String getStockName(){return stockName;}
     
     public void setCompanyName(String cn){companyName=cn;}
     public String getCompanyName(){return companyName;}

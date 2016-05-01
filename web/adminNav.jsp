@@ -48,11 +48,22 @@
                             </li>
                             <li class="col-sm-3">
                                 <ul>
-                                    <li class="dropdown-header">Reports</li>
+                                    <li class="dropdown-header">Stock and Order</li>
 
-                                    <li><a href="addEmployee.jsp">View report for a particular month</a></li>
-                                    <li><a href="getEmployee.jsp">Edit Employee information</a></li>
-                                    <li><a href="deleteEmployee.jsp">Delete Employee</a></li>
+                                    <li><a href="selectMonth.jsp">View report for a particular month</a></li>
+                                    <li><a href="allStocks.jsp">View list of all stocks</a></li>
+                                    <li><a href="allStocks.jsp">View Orders</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="col-sm-3">
+                                <ul>
+                                    <li class="dropdown-header">Revenue</li>
+
+                                    <li><a href="selectCategory.jsp">Revenue summary list</a></li>
+                                    <li><a href="employeeRevenue.jsp">View customer representative generating most revenue</a></li>
+                                    <li><a href="clientRevenue.jsp">View customer generating most revenue</a></li>
+                                    <li><a href="activelyStock.jsp">View most actively traded stocks</a></li>
 
                                 </ul>
                             </li>
