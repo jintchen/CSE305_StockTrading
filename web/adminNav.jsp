@@ -46,6 +46,16 @@
 
                                 </ul>
                             </li>
+                            <li class="col-sm-3">
+                                <ul>
+                                    <li class="dropdown-header">Reports</li>
+
+                                    <li><a href="addEmployee.jsp">View report for a particular month</a></li>
+                                    <li><a href="getEmployee.jsp">Edit Employee information</a></li>
+                                    <li><a href="deleteEmployee.jsp">Delete Employee</a></li>
+
+                                </ul>
+                            </li>
                         </ul>
 
                     </li>

@@ -4,9 +4,41 @@
         <servlet-name>SetStockServlet</servlet-name>
         <servlet-class>Servlet.SetStockServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>GetEmployeeServlet</servlet-name>
+        <servlet-class>Servlet.GetEmployeeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditEmployeeServlet</servlet-name>
+        <servlet-class>Servlet.EditEmployeeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteEmployeeServlet</servlet-name>
+        <servlet-class>Servlet.DeleteEmployeeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddEmployeeServlet</servlet-name>
+        <servlet-class>AddEmployeeServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SetStockServlet</servlet-name>
         <url-pattern>/SetStockServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GetEmployeeServlet</servlet-name>
+        <url-pattern>/GetEmployeeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditEmployeeServlet</servlet-name>
+        <url-pattern>/EditEmployeeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteEmployeeServlet</servlet-name>
+        <url-pattern>/DeleteEmployeeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddEmployeeServlet</servlet-name>
+        <url-pattern>/AddEmployeeServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
