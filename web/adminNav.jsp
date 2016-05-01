@@ -32,7 +32,7 @@
                                 <ul>
                                     <li class="dropdown-header">Stock</li>
 
-                                    <li><a href="/setStock.jsp">Set stock price</a></li>
+                                    <li><a href="setStock.jsp">Set stock price</a></li>
 
                                 </ul>
                             </li>
@@ -40,9 +40,9 @@
                                 <ul>
                                     <li class="dropdown-header">Employee</li>
 
-                                    <li><a href="/addEmployee.jsp">Add Employee</a></li>
-                                    <li><a href="/getEmployee.jsp">Edit Employee information</a></li>
-                                    <li><a href="/deleteEmployee.jsp">Delete Employee</a></li>
+                                    <li><a href="addEmployee.jsp">Add Employee</a></li>
+                                    <li><a href="getEmployee.jsp">Edit Employee information</a></li>
+                                    <li><a href="deleteEmployee.jsp">Delete Employee</a></li>
 
                                 </ul>
                             </li>

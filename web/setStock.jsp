@@ -19,21 +19,21 @@
 
                     <div class="col-md-12">
                         <div  style="font-size:150%;">
-                            <form action="LoginServlet" method="POST" id="loginForm" >
+                            <form action="SetStockServlet" method="POST" >
                                 <div class="modal-body">
                                     </br>
 
 
-                                    <input type="text" placeholder="Stock Symbol" name= "username" class="form-control"/>
+                                    <input type="text" placeholder="Stock Symbol" name= "stockSymbol" class="form-control"/>
 
-                                    <input type="text" placeholder="Stock Price" name= "password" class="form-control"/> 
+                                    <input type="text" placeholder="Stock Price" name= "stockPrice" class="form-control"/> 
 
                                   
                                 </div>
                                 <div class="modal-footer">
 
                                     <div>
-                                        <button type="submit" value = "Submit" class="btn btn-primary btn-lg btn-block" >Sign in</button>
+                                        <button type="submit" value = "Submit" class="btn btn-primary btn-lg btn-block" >Set Stock</button>
                                     </div>
 
                                 </div>
