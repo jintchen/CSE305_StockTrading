@@ -1,30 +1,32 @@
+<%-- 
+    Document   : setStock
+    Created on : May 1, 2016, 12:21:29 AM
+    Author     : Tian
+--%>
 
-<%@ page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE HTML>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
 <html>
-        <div class="tab-pane" id="search" >
+     <c:import url="header.html"/>
 
-            <div class="container" style = "margin-top:40px">
+    <body>
+        <c:import url="adminNav.jsp"/>
+
+        <c:import url="banner.html"/>
+        <div class="container" style = "margin-top:40px">
                 <div class="content-container clearfix">
 
                     <div class="col-md-12">
                         <div  style="font-size:150%;">
                             <form action="LoginServlet" method="POST" id="loginForm" >
                                 <div class="modal-body">
-                                    <div style="font-size:20px;">
-                                        <Span><Strong>Sign in as:</Strong></Span>
-                                        <select style="margin-right: 40%" id="selectSign" onchange="selectSignIn();" name="role">
-                                            <option value="Client" selected="selected">Client</option>
-                                            <option value="Employee">Employee</option>
-                                            <option value="Manager">Manager</option>
-                                        </select>
-                                    </div> 
                                     </br>
 
 
-                                    <input type="text" placeholder="Username" name= "username" class="form-control"/>
+                                    <input type="text" placeholder="Stock Symbol" name= "username" class="form-control"/>
 
-                                    <input type="password" id="register_password" placeholder="Password" name= "password" class="form-control"/> 
+                                    <input type="text" placeholder="Stock Price" name= "password" class="form-control"/> 
 
                                   
                                 </div>
@@ -44,14 +46,13 @@
                     </div>
                 </div>
             </div>
-
-        </div>
-
+        <c:import url="footer.html"/>
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
         <!-- Customized js files -->
 
         <script src="bootstrap-3.3.6-dist/js/script.js"></script>
+    </body>
 </html>
-

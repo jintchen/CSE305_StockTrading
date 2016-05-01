@@ -30,17 +30,19 @@
                         <ul class="dropdown-menu mega-dropdown-menu row">
                             <li class="col-sm-3">
                                 <ul>
-                                    <li class="dropdown-header">Subject</li>
+                                    <li class="dropdown-header">Stock</li>
 
-                                    <li><a href="display_page.html">Business</a></li>
-                                    <li><a href="#">Fiction</a></li>
-                                    <li><a href="#">Nonfiction</a></li>
-                                    <li><a href="#">History</a></li>
-                                    <li><a href="#">Religion</a></li>
-                                    <li><a href="#">Education</a></li>
-                                    <li><a href="#">Science</a></li>
-                                    <li><a href="#">Medic</a></li>
-                                    <li><a href="#">More...</a></li>
+                                    <li><a href="/setStock.jsp">Set stock price</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="col-sm-3">
+                                <ul>
+                                    <li class="dropdown-header">Employee</li>
+
+                                    <li><a href="/addEmployee.jsp">Add Employee</a></li>
+                                    <li><a href="/getEmployee.jsp">Edit Employee information</a></li>
+                                    <li><a href="/deleteEmployee.jsp">Delete Employee</a></li>
 
                                 </ul>
                             </li>
@@ -48,21 +50,9 @@
 
                     </li>
                 </ul>
-                <c:choose>
-
-                    <c:when test="${not empty account.userName}">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> ${account.userName}</a></li>                        
-                            <li><a href="index">Log out</a></li>
+                        <ul class="nav navbar-nav navbar-right">                    
+                            <li><a href="index.jsp">Log out</a></li>
                         </ul>
-                    </c:when>
-                    <c:otherwise>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#" onclick = "location.href = 'index.jsp'"><span class="glyphicon glyphicon-user login"></span> Login</a></li>                        
-                        </ul>
-
-                    </c:otherwise>
-                </c:choose>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>

@@ -50,10 +50,10 @@
                 </ul>
                 <c:choose>
 
-                    <c:when test="${not empty account.userName}">
+                    <c:when test="${not empty firstName}">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> ${account.userName}</a></li>                        
-                            <li><a href="index">Log out</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> ${fisrtName} ${lastName}</a></li>                        
+                            <li><a href="index.jsp">Log out</a></li>
                         </ul>
                     </c:when>
                     <c:otherwise>

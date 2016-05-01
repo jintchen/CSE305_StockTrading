@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 
+import Connector.JdbcConnector;
 import java.sql.ResultSet;
 import org.junit.After;
 import org.junit.AfterClass;
