@@ -30,17 +30,15 @@
                         <ul class="dropdown-menu mega-dropdown-menu row">
                             <li class="col-sm-3">
                                 <ul>
-                                    <li class="dropdown-header">Subject</li>
+                                     <li class="dropdown-header">Subject</li>
 
-                                    <li><a href="display_page.html">Business</a></li>
-                                    <li><a href="#">Fiction</a></li>
-                                    <li><a href="#">Nonfiction</a></li>
-                                    <li><a href="#">History</a></li>
-                                    <li><a href="#">Religion</a></li>
-                                    <li><a href="#">Education</a></li>
-                                    <li><a href="#">Science</a></li>
-                                    <li><a href="#">Medic</a></li>
-                                    <li><a href="#">More...</a></li>
+                                    <li><a href="employeePage.jsp">Home</a></li>
+                                    <li><a href="CustomerRecordOrder.jsp">Record Orders</a></li>
+                                    <li><a href="CustomerAdd.jsp">Add Customers</a></li>
+                                    <li><a href="CustomerDelete.jsp">Delete Customers</a></li>
+                                    <li><a href="CustomerUpdate.jsp">Edit Customers</a></li>
+                                    <li><a href="CustomerMailing.jsp">Customer mailing lists</a></li>
+                                    <li><a href="CustomerStockSugg.jsp">Stock Suggestion</a></li>
 
                                 </ul>
                             </li>

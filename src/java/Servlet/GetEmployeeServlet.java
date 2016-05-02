@@ -33,7 +33,7 @@ public class GetEmployeeServlet extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String ssn = request.getParameter("SSN");
-        String query = "Select p.firstname,p.lastname, p.address, p.zipcode,p.city,p.states, p.telephone, e.hourlyrate, e.startdate From employees e,person p WHERE e.SSN=p.SSN and e.SSN = '" + ssn + "'";
+        String query = "Select p.firstname,p.lastname, p.address, p.zipcode,p.city,p.states, p.telephone, e.hourlyrate, e.startdate From employees e,person p WHERE e.SSN=p.SSN and e.SSN = " + ssn + ";";
         try {
             ResultSet rs=JdbcConnector.excuteQuery(query);
             if (rs.first()) {
@@ -43,7 +43,7 @@ public class GetEmployeeServlet extends HttpServlet {
                 e.setFname(rs.getString("firstName"));
                 e.setHourlyRate(rs.getFloat("hourlyrate"));
                 e.setLname(rs.getString("lastname"));
-                e.setSSN(ssn);
+                e.setSSN(Integer.parseInt(ssn));
                 e.setStartDate(rs.getDate("startdate"));
                 e.setState(rs.getString("states"));
                 e.setTelephone(rs.getString("telephone"));

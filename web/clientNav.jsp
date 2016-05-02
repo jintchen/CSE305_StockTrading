@@ -18,7 +18,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="clientPage.jsp">Simple Trade</a>
+                <a class="navbar-brand" href="adminPage.jsp">Simple Trade</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -32,9 +32,15 @@
                                 <ul>
                                     <li class="dropdown-header">Subject</li>
 
-                                    <li><a href="CustomerCurrentStock.jsp">Current Stocks</a></li>
-                                    <li><a href="OrderHistory.jsp">Order history</a></li>
-                                    <li><a href="SelectType.jsp">Search recent order by type</a></li>
+                                    <li><a href="display_page.html">Business</a></li>
+                                    <li><a href="#">Fiction</a></li>
+                                    <li><a href="#">Nonfiction</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">Religion</a></li>
+                                    <li><a href="#">Education</a></li>
+                                    <li><a href="#">Science</a></li>
+                                    <li><a href="#">Medic</a></li>
+                                    <li><a href="#">More...</a></li>
 
                                 </ul>
                             </li>
@@ -43,10 +49,9 @@
                     </li>
                 </ul>
                 <c:choose>
-
-                    <c:when test="${not empty firstName}">
+<c:when test="${not empty firstName}">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> ${fisrtName} ${lastName}</a></li>                          
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> ${fisrtName} ${lastName}</a></li>                        
                             <li><a href="index.jsp">Log out</a></li>
                         </ul>
                     </c:when>

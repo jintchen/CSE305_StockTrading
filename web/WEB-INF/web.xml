@@ -32,6 +32,10 @@
         <servlet-name>ViewRevenueServlet</servlet-name>
         <servlet-class>Servlet.ViewRevenueServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CustomerServlet</servlet-name>
+        <servlet-class>Servlet.CustomerServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SetStockServlet</servlet-name>
         <url-pattern>/SetStockServlet</url-pattern>
@@ -63,6 +67,10 @@
     <servlet-mapping>
         <servlet-name>ViewRevenueServlet</servlet-name>
         <url-pattern>/ViewRevenueServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CustomerServlet</servlet-name>
+        <url-pattern>/CustomerServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

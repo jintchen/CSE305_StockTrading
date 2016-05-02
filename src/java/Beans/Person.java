@@ -7,7 +7,7 @@ import java.io.Serializable;
  * @author Tian
  */
 public class Person implements Serializable{
-    private String SSN;
+    private int SSN;
     private String lname;
     private String fname;
     private String address;
@@ -22,8 +22,8 @@ public class Person implements Serializable{
     public String getCity(){return city;}
     public void setState(String s){ state=s;}
     public String getState(){return state;}
-    public void setSSN(String newSSN){ SSN = newSSN;}
-    public String getSSN(){ return SSN;}
+    public void setSSN(int newSSN){ SSN = newSSN;}
+    public int getSSN(){ return SSN;}
     
     public void setLname(String lname){ this.lname = lname;}
     public String getLname(){ return lname;}

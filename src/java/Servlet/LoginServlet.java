@@ -47,7 +47,7 @@ public class LoginServlet extends HttpServlet {
                 }
             }
             if (role.equalsIgnoreCase("employee")) {
-                String query = "select e.SSN,p.firstname, p.lastname from Employees e,person p where e.SSN = ‘" + username + "’ AND p.SSN=e.SSN";
+                String query = "select e.SSN,p.firstname, p.lastname from Employees e,person p where e.SSN = " + username + " AND p.SSN=e.SSN";
                 ResultSet rs = JdbcConnector.excuteQuery(query);
                 if (rs.first()) {
                     request.getSession().setAttribute("ssn",rs.getString("SSN"));
