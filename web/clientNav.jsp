@@ -32,15 +32,9 @@
                                 <ul>
                                     <li class="dropdown-header">Subject</li>
 
-                                    <li><a href="display_page.html">Business</a></li>
-                                    <li><a href="#">Fiction</a></li>
-                                    <li><a href="#">Nonfiction</a></li>
-                                    <li><a href="#">History</a></li>
-                                    <li><a href="#">Religion</a></li>
-                                    <li><a href="#">Education</a></li>
-                                    <li><a href="#">Science</a></li>
-                                    <li><a href="#">Medic</a></li>
-                                    <li><a href="#">More...</a></li>
+                                    <li><a href="CustomerCurrentStock.jsp">Current Stocks</a></li>
+                                    <li><a href="OrderHistory.jsp">Order History</a></li>
+                                    <li><a href="SelectType.jsp">Recent Orders by Type</a></li>
 
                                 </ul>
                             </li>
