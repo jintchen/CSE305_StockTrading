@@ -16,10 +16,13 @@ public class Order implements Serializable{
     private float percentage;
     private float pricePerShare;
     private Date date;
+    private String stockSymbol;
     
     public Order(){
         
     }
+    public void setStockSymbol(String ss){stockSymbol=ss;}
+    public String getStockSymbol(){return stockSymbol;}
     
     public void setOrderId(int id){ orderId=id;}
     public int getOrderId(){return orderId;}

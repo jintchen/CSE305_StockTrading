@@ -54,7 +54,7 @@
                         <th>Company Name</th>
                         <th>Stock Type</th>
                         <th>Price per Share</th>
-                        <th>Number of Shares</th>>
+                        <th>Number of Shares</th>
                     </tr>
                 </thead>
                 <tbody>

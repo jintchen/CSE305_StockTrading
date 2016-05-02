@@ -52,7 +52,7 @@
 
                                     <li><a href="selectMonth.jsp">View report for a particular month</a></li>
                                     <li><a href="allStocks.jsp">View list of all stocks</a></li>
-                                    <li><a href="allStocks.jsp">View Orders</a></li>
+                                    <li><a href="selectOrder.jsp">View Orders</a></li>
 
                                 </ul>
                             </li>

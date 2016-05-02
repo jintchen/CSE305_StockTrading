@@ -24,6 +24,14 @@
         <servlet-name>SelectTypeServlet</servlet-name>
         <servlet-class>Servlet.SelectTypeServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ViewOrdersServlet</servlet-name>
+        <servlet-class>Servlet.ViewOrdersServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ViewRevenueServlet</servlet-name>
+        <servlet-class>Servlet.ViewRevenueServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SetStockServlet</servlet-name>
         <url-pattern>/SetStockServlet</url-pattern>
@@ -47,6 +55,14 @@
     <servlet-mapping>
         <servlet-name>SelectTypeServlet</servlet-name>
         <url-pattern>/SelectTypeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ViewOrdersServlet</servlet-name>
+        <url-pattern>/ViewOrdersServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ViewRevenueServlet</servlet-name>
+        <url-pattern>/ViewRevenueServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
